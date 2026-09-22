@@ -1,0 +1,6 @@
+# Optional deployment helper for the sandbox image only.
+services:
+  sandbox-image:
+    build:
+      context: ../../sandbox
+    image: sovereign-code-sandbox:latest

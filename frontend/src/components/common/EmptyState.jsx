@@ -1,0 +1,1 @@
+import React from 'react';export default function EmptyState({title='Ready to Create Something New?',children}){return <div className="empty-state"><div className="hero-orb">✦</div><h1>{title}</h1>{children}</div>}

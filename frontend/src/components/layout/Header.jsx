@@ -1,0 +1,1 @@
+import React from 'react';export default function Header({conversation}){return <header className="chat-header"><div><div className="header-title">{conversation?.title||'New Chat'}</div><div className="header-sub">{conversation?.id||'Local session'} · Air-gapped workspace</div></div><span className="local-badge">● LOCAL</span></header>}

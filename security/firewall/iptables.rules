@@ -1,0 +1,4 @@
+# TEMPLATE ONLY — do not apply directly.
+# Final deployment should use a reviewed default-deny egress policy with explicit
+# allow rules for required internal services. Docker can manage its own chains;
+# review Docker's generated rules before adding host firewall rules.

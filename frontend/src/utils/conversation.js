@@ -1,0 +1,3 @@
+export const conversationId=()=>`SV-${crypto.randomUUID().split('-')[0].toUpperCase()}-${Math.floor(Date.now()/1000).toString(36).toUpperCase()}`;
+export const topicFrom=(text)=>{const t=(text||'').trim().replace(/\s+/g,' ');return t.length>48?t.slice(0,48)+'…':t||'New Chat'};
+export const groupDate=(ts)=>{const d=new Date(ts), now=new Date();const day=86400000;const diff=Math.floor((new Date(now.getFullYear(),now.getMonth(),now.getDate())-new Date(d.getFullYear(),d.getMonth(),d.getDate()))/day);if(diff===0)return'Today';if(diff===1)return'Yesterday';if(diff<=7)return'Previous 7 Days';return'Older'};

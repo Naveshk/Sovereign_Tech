@@ -1,0 +1,4 @@
+# Optional local OCR acceleration for scanned PDFs/images.
+# Install only when OCR is needed; the base application keeps OCR lazy/fallback-safe.
+paddleocr>=3.0,<4
+paddlepaddle>=3.0,<4

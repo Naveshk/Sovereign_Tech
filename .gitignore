@@ -1,0 +1,52 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# Generated files
+data/generated/*
+data/processed/*
+
+# Uploaded files
+data/uploads/*
+
+# Knowledge base data
+data/knowledge_base/*
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp# Secure sandbox runtime artifacts
+/data/sandbox/workspaces/*
+*.pcap
+
+# Local encryption key and runtime database (never package or commit)
+data/keys/*
+data/sovereign.db
+
+# Batches
+*.md

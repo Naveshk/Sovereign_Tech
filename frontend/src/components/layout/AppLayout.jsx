@@ -1,0 +1,1 @@
+import React from 'react';import Sidebar from './Sidebar';export default function AppLayout(p){return <div className="workspace"><Sidebar {...p}/><main className="main-panel">{p.children}</main></div>}
