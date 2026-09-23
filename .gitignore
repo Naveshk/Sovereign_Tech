@@ -47,6 +47,3 @@ htmlcov/
 # Local encryption key and runtime database (never package or commit)
 data/keys/*
 data/sovereign.db
-
-# Batches
-*.md
