@@ -45,5 +45,6 @@ htmlcov/
 *.pcap
 
 # Local encryption key and runtime database (never package or commit)
+data/network_evidence/*
 data/keys/*
 data/sovereign.db

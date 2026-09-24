@@ -1,4 +1,4 @@
-"""Batch 17 artifact security and QR verification helpers.
+"""artifact security and QR verification helpers.
 
 QR payloads are local, deterministic security references. They do not transmit
 artifact contents or call an external service.
